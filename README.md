@@ -7,6 +7,7 @@ Developed in Python and using key libraries like Keras, OpenCV, and pandas, the 
 
 ![image](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)
 {source: https://github.com/udacity/self-driving-car-sim}
+
 The process involves organizing this data from a driving_log.csv file into training and validation sets to ensure the model learns effectively and can apply its knowledge to new situations. This is vital for creating a reliable autonomous driving system capable of handling different driving conditions.
 
 The architecture of the neural network is a multi-layered convolutional neural network (CNN). Initial layers normalize the input images, while subsequent layers, with Exponential Linear Units (ELU) activations, extract and learn features from the images. The model also uses techniques like dropout, batch normalization, and L2 regularization to prevent overfitting and focus on learning key features.
