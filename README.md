@@ -17,3 +17,5 @@ Data augmentation introduces variety to the training set, simulating different d
 Training is efficiently designed to maximize both efficiency and effectiveness. A batch generator manages memory use and allows for large dataset training on limited-resource hardware. The training utilizes real-time data augmentation and parallel processing to ensure optimal GPU usage.
 
 The use of the Adam optimizer, a selective learning rate, and callbacks to save the best models based on validation loss reflects a deep understanding of deep learning training strategies. This approach leads to a robust model capable of navigating autonomous driving's complexities.
+
+Project based on: https://github.com/udacity/self-driving-car-sim
